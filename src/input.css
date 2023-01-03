@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*Custom CSS*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*Error message*/
+
+.error-alert{
+  background-color: #FFC0C7;
+  color: black;
+  font-weight: bold;
+  margin: 2rem 1.5rem;
+  padding: 1.8rem 0rem;
+  border-radius: 16px;
+}
+
+.success-alert{
+  background-color:#4caf50 ;
+  color: white;
+  font-weight: bold;
+  margin: 2rem 1.5rem;
+  padding: 1.8rem 0rem;
+  border-radius: 16px;
+}
